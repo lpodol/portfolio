@@ -1,0 +1,56 @@
+#bar{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  line-height: 80px;
+  margin-top: -30px;
+  padding-bottom: 15px;
+}
+#name{
+  margin-left: 50px;
+  font: 45px DiamondsThin;
+}
+#links{
+  position: relative;
+  float: right;
+  margin-right: 150px;
+}
+#ornament{
+  position: relative;
+  font: 40px DiamondsOrnaments;
+  text-align: center;
+}
+#lauren{
+  float: left;
+  margin-top: -85px;
+  padding-right: 50px;
+}
+#text{
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  margin-bottom: 100px;
+  margin-left: 230px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+}
+#shaun{
+  font-weight: 900;
+}
+a.external:visited{
+  color: black;
+}
+a.external:link{
+  color: black;
+}
+a.nav:link{
+  color: white;
+  text-decoration: none;
+}
+a.nav:visited{
+  color: white;
+  text-decoration: none;
+}
+a.nav:hover{
+  color: orangered;
+}
