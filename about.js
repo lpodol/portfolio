@@ -7,12 +7,11 @@ var server = http.createServer(function(request,response){
       response.end(data);
     });
   }else if (request.url === "/style.css"){
-    console.log(request.url)
     fs.readFile("style.css", function(err,data){
       response.end(data);
     });
   }else if (request.url === "/MyFontsWebfontsKit.css"){
-      fs.readFile("MyFontsWebfontsKit.html", function(err,data){
+      fs.readFile("MyFontsWebfontsKit.css", function(err,data){
         response.end(data);
     });
   }else if (request.url === "/about.html"){
