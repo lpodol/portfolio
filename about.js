@@ -11,6 +11,10 @@ var server = http.createServer(function(request,response){
     fs.readFile("style.css", function(err,data){
       response.end(data);
     });
+  }else if (request.url === "/MyFontsWebfontsKit.css"){
+      fs.readFile("MyFontsWebfontsKit.html", function(err,data){
+        response.end(data);
+    });
   }else if (request.url === "/about.html"){
     fs.readFile("about.html", function(err,data){
       response.end(data);
