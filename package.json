@@ -1,0 +1,22 @@
+{
+  "name": "aboutme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "about.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lpodol/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpodol/portfolio/issues"
+  },
+  "homepage": "https://github.com/lpodol/portfolio",
+  "dependencies": {
+    "ws": "^0.6.5"
+  }
+}

@@ -1,17 +1,150 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ws', '--save' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 error install Couldn't read dependencies
-5 error package.json ENOENT, open '/Users/lauren/projects/aboutme/package.json'
-5 error package.json This is most likely not a problem with npm itself.
-5 error package.json npm can't find a package.json file in your current directory.
-6 error System Darwin 14.0.0
-7 error command "node" "/usr/local/bin/npm" "install"
-8 error cwd /Users/lauren/projects/aboutme
-9 error node -v v0.10.33
-10 error npm -v 1.4.28
-11 error path /Users/lauren/projects/aboutme/package.json
-12 error code ENOPACKAGEJSON
-13 error errno 34
-14 verbose exit [ 34, true ]
+4 warn package.json aboutme@1.0.0 No description
+5 warn package.json aboutme@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'ws', null ]
+8 verbose cache add name=undefined spec="ws" args=["ws",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'ws',
+9 verbose parsed url   path: 'ws',
+9 verbose parsed url   href: 'ws' }
+10 silly lockFile 1457b75d-ws ws
+11 verbose lock ws /Users/lauren/.npm/1457b75d-ws.lock
+12 silly lockFile 1457b75d-ws ws
+13 silly lockFile 1457b75d-ws ws
+14 verbose addNamed [ 'ws', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile e88fe629-ws ws@
+17 verbose lock ws@ /Users/lauren/.npm/e88fe629-ws.lock
+18 silly addNameRange { name: 'ws', range: '*', hasData: false }
+19 verbose request where is /ws
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 4958414da2fb4d2e
+22 verbose url raw /ws
+23 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+24 verbose url resolved https://registry.npmjs.org/ws
+25 verbose request where is https://registry.npmjs.org/ws
+26 info trying registry request attempt 1 at 17:13:05
+27 verbose etag "EQRO291XPS6MDG7OHUTJESF9T"
+28 http GET https://registry.npmjs.org/ws
+29 http 200 https://registry.npmjs.org/ws
+30 silly registry.get cb [ 200,
+30 silly registry.get   { date: 'Thu, 08 Jan 2015 22:13:06 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"84EAIZAKF51Q09TBDUCUTUY2Z"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '67379',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '56',
+30 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '2',
+30 silly registry.get     'x-timer': 'S1420755186.239550,VS0,VE0',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly addNameRange number 2 { name: 'ws', range: '*', hasData: true }
+32 silly addNameRange versions [ 'ws',
+32 silly addNameRange   [ '0.2.6',
+32 silly addNameRange     '0.2.8',
+32 silly addNameRange     '0.2.9',
+32 silly addNameRange     '0.3.0',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.3.3',
+32 silly addNameRange     '0.3.4',
+32 silly addNameRange     '0.3.4-2',
+32 silly addNameRange     '0.3.5',
+32 silly addNameRange     '0.3.5-2',
+32 silly addNameRange     '0.3.5-3',
+32 silly addNameRange     '0.3.5-4',
+32 silly addNameRange     '0.3.6',
+32 silly addNameRange     '0.3.7',
+32 silly addNameRange     '0.3.8',
+32 silly addNameRange     '0.3.9',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.4.1',
+32 silly addNameRange     '0.4.2',
+32 silly addNameRange     '0.4.3',
+32 silly addNameRange     '0.4.5',
+32 silly addNameRange     '0.4.6',
+32 silly addNameRange     '0.4.7',
+32 silly addNameRange     '0.4.8',
+32 silly addNameRange     '0.4.9',
+32 silly addNameRange     '0.4.10',
+32 silly addNameRange     '0.4.11',
+32 silly addNameRange     '0.4.12',
+32 silly addNameRange     '0.4.13',
+32 silly addNameRange     '0.4.14',
+32 silly addNameRange     '0.4.15',
+32 silly addNameRange     '0.4.16',
+32 silly addNameRange     '0.4.17',
+32 silly addNameRange     '0.4.18',
+32 silly addNameRange     '0.4.19',
+32 silly addNameRange     '0.4.20',
+32 silly addNameRange     '0.4.21',
+32 silly addNameRange     '0.4.22',
+32 silly addNameRange     '0.4.23',
+32 silly addNameRange     '0.4.24',
+32 silly addNameRange     '0.4.25',
+32 silly addNameRange     '0.4.27',
+32 silly addNameRange     '0.4.28',
+32 silly addNameRange     '0.4.29',
+32 silly addNameRange     '0.4.30',
+32 silly addNameRange     '0.4.31',
+32 silly addNameRange     '0.4.32',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.6.2',
+32 silly addNameRange     '0.6.3',
+32 silly addNameRange     '0.6.4',
+32 silly addNameRange     '0.6.5' ] ]
+33 verbose addNamed [ 'ws', '0.6.5' ]
+34 verbose addNamed [ '0.6.5', '0.6.5' ]
+35 silly lockFile b48df489-ws-0-6-5 ws@0.6.5
+36 verbose lock ws@0.6.5 /Users/lauren/.npm/b48df489-ws-0-6-5.lock
+37 silly lockFile 20d6ff14-gistry-npmjs-org-ws-ws-0-6-5-tgz https://registry.npmjs.org/ws/-/ws-0.6.5.tgz
+38 verbose lock https://registry.npmjs.org/ws/-/ws-0.6.5.tgz /Users/lauren/.npm/20d6ff14-gistry-npmjs-org-ws-ws-0-6-5-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/ws/-/ws-0.6.5.tgz',
+39 verbose addRemoteTarball   'f00844001ca393b003681ff32838e72a560dafd4' ]
+40 info retry fetch attempt 1 at 17:13:06
+41 verbose fetch to= /var/folders/_8/ly46r2y570g5qc4qr4550qc40000gp/T/npm-2349-rjK3MQHI/registry.npmjs.org/ws/-/ws-0.6.5.tgz
+42 http GET https://registry.npmjs.org/ws/-/ws-0.6.5.tgz
+43 http 200 https://registry.npmjs.org/ws/-/ws-0.6.5.tgz
+44 silly lockFile 20d6ff14-gistry-npmjs-org-ws-ws-0-6-5-tgz https://registry.npmjs.org/ws/-/ws-0.6.5.tgz
+45 silly lockFile 20d6ff14-gistry-npmjs-org-ws-ws-0-6-5-tgz https://registry.npmjs.org/ws/-/ws-0.6.5.tgz
+46 silly lockFile b48df489-ws-0-6-5 ws@0.6.5
+47 silly lockFile b48df489-ws-0-6-5 ws@0.6.5
+48 silly lockFile e88fe629-ws ws@
+49 silly lockFile e88fe629-ws ws@
+50 error Error: EACCES, mkdir '/Users/lauren/.npm/ws/0.6.5'
+50 error  { [Error: EACCES, mkdir '/Users/lauren/.npm/ws/0.6.5']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/Users/lauren/.npm/ws/0.6.5',
+50 error   parent: 'aboutme' }
+51 error Please try running this command again as root/Administrator.
+52 error System Darwin 14.0.0
+53 error command "node" "/usr/local/bin/npm" "install" "ws" "--save"
+54 error cwd /Users/lauren/projects/aboutme
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 error path /Users/lauren/.npm/ws/0.6.5
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/Users/lauren/.npm/ws/0.6.5'
+61 verbose exit [ 3, true ]
