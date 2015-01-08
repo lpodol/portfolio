@@ -23,7 +23,7 @@
   font: 40px DiamondsOrnaments;
   text-align: center;
   background-color: white;
-  margin-top: -10px;
+  margin-top: -7px;
   padding-top: 5px;
 }
 #lauren{
@@ -34,16 +34,23 @@
   z-index: -1
 }
 #abouttext{
-  font-family: 'Exo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  margin-bottom: 100px;
   margin-left: 230px;
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 40px;
+  color: #333333;
+}
+.heading{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #333333;
 }
 #shaun{
-  font-weight: 900;
+  font-weight: 500;
 }
 a.external:visited{
   color: black;
@@ -76,11 +83,11 @@ a.nav:hover{
   margin: auto;
   text-align: center;
   color: #333333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 #contacttext{
   color: #333333;
-  font-family: 'Open Sans', sans-serif;
+  font: 40px DiamondsThin;
   font-weight: 400px;
   display: inline-block;
   letter-spacing: .10em;
@@ -94,7 +101,8 @@ a.nav:hover{
   font-size: 30px;
   line-height: 10px;
   letter-spacing: .17em;
-  }
+  font: 40px DiamondsThin;
+}
 
 #ornament2{
   font: 40px DiamondsOrnaments;
@@ -110,4 +118,53 @@ a.nav:hover{
 }
 #social{
   margin-top: -20px;
+}
+.port{
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+/*.port:hover{
+  opacity: 0.6;
+}*/
+.porttext {
+  top: 10;
+  bottom: 0;
+  left: 10;
+  right: 0;
+  position: absolute;
+  width: 450;
+  height: 326;
+  background: grey;
+  /*color: white;*/
+  visibility: hidden;
+  /*opacity: 0;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  display: inline-block;*/
+}
+.port:hover .porttext{
+    visibility: visible;
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.insidetext{
+  color: white;
+  visibility: hidden;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 75px 10px 75px 10px;
+  text-align: center;
+}
+.port:hover .insidetext{
+  visibility: visible;
+}
+.portheader{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+  padding: 15px;
 }
