@@ -11,6 +11,7 @@ var server = http.createServer(function(request,response){
       response.end(data);
     });
   }else if (request.url === "/MyFontsWebfontsKit.css"){
+    console.log(request.url)
       fs.readFile("MyFontsWebfontsKit.css", function(err,data){
         response.end(data);
     });
