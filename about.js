@@ -22,6 +22,14 @@ var server = http.createServer(function(req,res){
     fs.readFile("contact.html", function(err,data) {
       response.end(data);
     });
+  }else if (request.url === "./chatroom_index.html") {
+    fs.readFile("chatroom_index.html", function(err,data) {
+      response.end(data);
+    })
+  }else if (request.url === "./contact.html") {
+    fs.readFile("contact.html", function(err,data) {
+      response.end(data);
+    });;
   };
 });
 
