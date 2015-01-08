@@ -3,8 +3,8 @@ var fs = require("fs");
 var server = http.createServer(function(request,response){
 
 fs.readFile(request.url.substr(1, request.url.length), function(err, data){
-  response.end(data)
-})
+  response.end(data);
+});
 
 //   if (request.url === "/index.html"){
 //     fs.readFile("index.html", function(err,data){
@@ -40,5 +40,5 @@ fs.readFile(request.url.substr(1, request.url.length), function(err, data){
 //       response.end(data);
 //     });
 //   }
-// });
+});
 server.listen(80);
