@@ -22,11 +22,7 @@ var server = http.createServer(function(req,res){
     fs.readFile("contact.html", function(err,data) {
       response.end(data);
     });
-  }else (request.url === ""){
-      fs.readFile("index.html", function(err,data) {
-        response.end(data);
-    });
-  }
+  };
 });
 
 server.listen(80);
