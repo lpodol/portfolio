@@ -2,27 +2,28 @@ var http = require("http");
 var fs = require("fs");
 var server = http.createServer(function(request,response){
 
-  if (request.url === "./index.html"){
+  if (request.url === "/index.html"){
     fs.readFile("index.html", function(err,data){
       response.end(data);
     });
-  }else if (request.url === "./style.css"){
+  }else if (request.url === "/style.css"){
+    console.log(request.url)
     fs.readFile("style.css", function(err,data){
       response.end(data);
     });
-  }else if (request.url === "./about.html"){
+  }else if (request.url === "/about.html"){
     fs.readFile("about.html", function(err,data){
       response.end(data);
     });
-  }else if (request.url === "./portfolio.html"){
+  }else if (request.url === "/portfolio.html"){
     fs.readFile("portfolio.html", function(err,data){
       response.end(data);
     });
-  }else if (request.url === "./contact.html"){
+  }else if (request.url === "/contact.html"){
     fs.readFile("contact.html", function(err,data){
       response.end(data);
     });
-  }else if (request.url === "./chatroom_index.html"){
+  }else if (request.url === "/chatroom_index.html"){
     fs.readFile("chatroom_index.html", function(err,data) {
       response.end(data);
     });
