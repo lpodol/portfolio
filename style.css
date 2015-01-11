@@ -21,6 +21,7 @@
   position: relative;
   float: right;
   margin-right: 150px;
+  font-family: 'DiamondsThin'
 }
 #ornament{
   position: relative;
@@ -82,13 +83,24 @@ a.nav:hover{
   display: block;
   background-image: url('http://slowbuddy.com/wp-content/uploads/2012/04/PowerPoint-Background-Aqua-Paint-Brush-Strokes.jpg');
   background-size: 100%;
-  height: 500px;
-  width: 800px;
+  height: 600px;
+  width: 1000px;
   margin: auto;
   text-align: center;
   color: #333333;
   font-family: 'Raleway', sans-serif;
 }
+#email{
+  /*height: 20px;*/
+  width: 170px;
+  border: solid #333333 1.5px;
+  padding: 7px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  }
 #contacttext{
   color: #333333;
   font: 40px DiamondsThin;
@@ -101,14 +113,16 @@ a.nav:hover{
 }
 #hello{
   font-weight: 900px;
-  margin-top: -30px;
+  /*margin-top: -45px;*/
   font-size: 30px;
   line-height: 10px;
   letter-spacing: .17em;
   font: 40px DiamondsThin;
 }
-
-#ornament2{
+#email:hover{
+  background-color: rgba(255,255,255, 0.4);
+}
+/*#ornament2{
   font: 40px DiamondsOrnaments;
   color: #333333;
   line-height: 10px;
@@ -119,7 +133,7 @@ a.nav:hover{
   color: #333333;
   line-height: 10px;
   margin-top: 20px
-}
+}*/
 #social{
   margin-top: -20px;
 }
@@ -127,6 +141,8 @@ a.nav:hover{
   position: relative;
   display: inline-block;
   padding: 10px;
+  transition: background-color 0.5s ease;
+  
 }
 /*.port:hover{
   opacity: 0.6;
@@ -139,7 +155,7 @@ a.nav:hover{
   position: absolute;
   width: 450;
   height: 326;
-  background: grey;
+  background: rgba(255,255,255,0.9);
   /*color: white;*/
   visibility: hidden;
   /*opacity: 0;
@@ -152,10 +168,11 @@ a.nav:hover{
     visibility: visible;
     opacity: 1;
     font-family: 'Raleway', sans-serif;
+    border: solid #333333 1.5px
 }
 
 .insidetext{
-  color: white;
+  color: #333333;
   visibility: hidden;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -169,6 +186,18 @@ a.nav:hover{
 .portheader{
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #333333;
   padding: 15px;
+}
+.slink{
+  display: inline-block;
+  border-radius: 30px;
+  /*border: solid black 1px;*/
+  margin-top: 200px;
+}
+#email_icon{
+  margin-bottom: -9px;
+}
+.slink:hover{
+  color: rgba(255,255,255,0.3)
 }

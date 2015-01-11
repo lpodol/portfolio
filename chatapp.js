@@ -55,8 +55,8 @@ array.forEach(function(piclink){
   if(end_chars === "gif" || end_chars === "jpg" || end_chars === "bmp" || end_chars === "png"){
     var img = document.createElement("img");
     img.src = piclink;
-    img.height = 200;
-    img.width = 200;
+    img.height = 300;
+    img.width = 300;
     li.appendChild(img);
   };
 });
