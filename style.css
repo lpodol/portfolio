@@ -100,7 +100,11 @@ a.nav:hover{
   text-align: center;
   margin: auto;
   margin-top: 70px;
-  }
+}
+#email:hover{
+  background-color: rgba(255,255,255, 0.7);
+}
+
 #contacttext{
   color: #333333;
   font: 40px DiamondsThin;
@@ -120,9 +124,8 @@ a.nav:hover{
   font: 40px DiamondsThin;
   margin: auto;
 }
-#email:hover{
-  background-color: rgba(255,255,255, 0.4);
-}
+
+
 /*#ornament2{
   font: 40px DiamondsOrnaments;
   color: #333333;
@@ -143,8 +146,6 @@ a.nav:hover{
   position: relative;
   display: inline-block;
   padding: 10px;
-  transition: background-color 0.5s ease;
-
 }
 /*.port:hover{
   opacity: 0.6;
@@ -157,8 +158,13 @@ a.nav:hover{
   position: absolute;
   width: 450;
   height: 326;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
   background: rgba(255,255,255,0.9);
   /*color: white;*/
+  opacity:0;
+  transition: opacity .3s linear;
   visibility: hidden;
   /*opacity: 0;
   text-align: right;
@@ -200,9 +206,9 @@ a.nav:hover{
 #email_icon{
   margin-bottom: -9px;
 }
-.slink:hover{
+/*.slink:hover{
   color: rgba(255,255,255,0.3)
-}
+}*/
 #indexpic{
   margin-top: -200px;
 }
