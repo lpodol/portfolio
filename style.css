@@ -29,7 +29,7 @@
   text-align: center;
   background-color: white;
   margin-top: -7px;
-  padding-top: 5px;
+  padding: 10px;
 }
 #lauren{
   position: relative;
@@ -204,5 +204,5 @@ a.nav:hover{
   color: rgba(255,255,255,0.3)
 }
 #indexpic{
-  margin-top: -200px;
+  margin-top: -100px;
 }
