@@ -142,7 +142,7 @@ a.nav:hover{
   display: inline-block;
   padding: 10px;
   transition: background-color 0.5s ease;
-  
+
 }
 /*.port:hover{
   opacity: 0.6;
@@ -200,4 +200,7 @@ a.nav:hover{
 }
 .slink:hover{
   color: rgba(255,255,255,0.3)
+}
+#indexpic{
+  margin-top: -200px;
 }
