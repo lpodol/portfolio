@@ -82,7 +82,7 @@ a.nav:hover{
 .contact{
   display: block;
   background-image: url('https://farm9.staticflickr.com/8600/16275266822_dc6ec655d4_o.jpg');
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: -200px;
   /*height: 600px;
