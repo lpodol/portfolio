@@ -82,7 +82,7 @@ a.nav:hover{
 .contact{
   background-image: url('https://farm8.staticflickr.com/7543/15653761684_4a6a34689b_o.jpg');
   background-size: 100%;
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   margin-top: -85px;
   /*height: 600px;
   width: 1000px;*/
@@ -118,7 +118,7 @@ a.nav:hover{
   line-height: 10px;
   letter-spacing: .17em;
   font: 40px DiamondsThin;
-  margin-left: 370px;
+  margin: auto;
 }
 #email:hover{
   background-color: rgba(255,255,255, 0.4);
@@ -204,5 +204,5 @@ a.nav:hover{
   color: rgba(255,255,255,0.3)
 }
 #indexpic{
-  margin-top: -100px;
+  margin-top: -200px;
 }
